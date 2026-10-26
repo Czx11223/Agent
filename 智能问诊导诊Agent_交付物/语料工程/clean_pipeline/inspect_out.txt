@@ -1,0 +1,7 @@
+CSV_TOTAL=6
+chinese medical dialogue_datasets\chinese medical dialogue_datasets\Andriatria_男科\男科5-13000.csv | ERR UnicodeDecodeError('utf-8', b'department,title,ask,answer\n\xd4\xe7\xd0\xb9,\xc4\xd0\xba\xa2\xd4\xe7\xd0\xb9\xbe\xbf\xbe
+chinese medical dialogue_datasets\chinese medical dialogue_datasets\IM_内科\内科5000-33000.csv | ERR UnicodeDecodeError('utf-8', b'department,title,ask,answer\n\xd0\xc4\xd1\xaa\xb9\xdc\xbf\xc6,\xb8\xdf\xd1\xaa\xd1\xb9\xbb
+chinese medical dialogue_datasets\chinese medical dialogue_datasets\OAGD_妇产科\妇产科6-28000.csv | ERR UnicodeDecodeError('utf-8', b'department,title,ask,answer\n\xb8\xbe\xb2\xfa\xbf\xc6,\xd2\xfd\xc6\xf0\xd4\xc2\xbe\xad\xc1
+chinese medical dialogue_datasets\chinese medical dialogue_datasets\Oncology_肿瘤科\肿瘤科5-10000.csv | ERR UnicodeDecodeError('utf-8', b'department,title,ask,answer\n\xbc\xd7\xd7\xb4\xcf\xd9\xb0\xa9,\xbc\xd7\xd7\xb4\xcf\xd9\xb0
+chinese medical dialogue_datasets\chinese medical dialogue_datasets\Pediatric_儿科\儿科5-14000.csv | ERR UnicodeDecodeError('utf-8', b'department,title,ask,answer\n\xd3\xaa\xd1\xf8\xb1\xa3\xbd\xa1\xbf\xc6,\xd0\xa1\xb6\xf9\xb7
+chinese medical dialogue_datasets\chinese medical dialogue_datasets\Surgical_外科\外科5-14000.csv | ERR UnicodeDecodeError('utf-8', b'department,title,ask,answer\n\xb8\xd8\xb3\xa6,\xd7\xdc\xca\xc7\xc0\xad\xcf\xa1\xb3\xd4\xd3

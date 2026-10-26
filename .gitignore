@@ -1,0 +1,54 @@
+# ===== 大文件 / 数据集（超出 GitHub 单文件 100MB 限制，本地保留） =====
+# 顶层归档
+陈赞鑫（嘉大班）.zip
+# 语料工程内的大数据集与压缩包
+智能问诊导诊Agent_交付物/语料工程/cleaned_dialogue.csv
+智能问诊导诊Agent_交付物/语料工程/corpus_raw/chinese medical dialogue_datasets.zip
+智能问诊导诊Agent_交付物/语料工程/corpus_raw/chinese medical dialogue_datasets/
+# 通用：语料工程内所有压缩包
+智能问诊导诊Agent_交付物/语料工程/**/*.zip
+# 其它任意位置的压缩包
+*.zip
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ===== Node =====
+node_modules/
+dist/
+build/
+out/
+
+# ===== 运行时 / 数据库 =====
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ===== 环境变量 / 密钥（含 API Key，禁止入库） =====
+.env
+.env.*
+!.env.example
+
+# ===== 日志 =====
+*.log
+_srv_*.log
+_srv_*.err.log
+
+# ===== 临时 / 缓存目录 =====
+.trae/
+.workbuddy/
+_tmp_check/
+
+# ===== OS / 编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
+*~

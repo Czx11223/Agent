@@ -1,0 +1,10 @@
+{
+  "task_counts": {
+    "ask": 8000,
+    "report": 1191,
+    "emergency": 3000,
+    "rejected": 1000
+  },
+  "total_train": 11872,
+  "total_dev": 1319
+}

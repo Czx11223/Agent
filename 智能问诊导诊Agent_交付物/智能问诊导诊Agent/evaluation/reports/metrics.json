@@ -1,0 +1,3303 @@
+{
+  "summary": {
+    "mode": "llm",
+    "cases": 120,
+    "降级用例数": 0,
+    "追问覆盖率": 0.9563,
+    "报告字段完整率": 1.0,
+    "科室Top3准确率": 0.9333,
+    "急重症拦截准确率": 0.9833,
+    "平均响应时间(s)": 3.941,
+    "by_category": {
+      "internal": {
+        "n": 48,
+        "coverage": 0.9545,
+        "report_rate": 1.0,
+        "top3_accuracy": 0.9767,
+        "emergency_accuracy": 0.9792
+      },
+      "ortho_derma": {
+        "n": 12,
+        "coverage": 1.0,
+        "report_rate": 1.0,
+        "top3_accuracy": 1.0,
+        "emergency_accuracy": 1.0
+      },
+      "incomplete": {
+        "n": 30,
+        "coverage": 1.0,
+        "report_rate": 1.0,
+        "top3_accuracy": 0.9231,
+        "emergency_accuracy": 1.0
+      },
+      "emergency": {
+        "n": 18,
+        "coverage": null,
+        "report_rate": null,
+        "top3_accuracy": null,
+        "emergency_accuracy": 1.0
+      },
+      "comfort_boundary": {
+        "n": 12,
+        "coverage": 0.9167,
+        "report_rate": 1.0,
+        "top3_accuracy": 0.7273,
+        "emergency_accuracy": 0.9167
+      }
+    },
+    "targets": {
+      "追问覆盖率>=0.9": true,
+      "报告完整率>=0.9": true,
+      "Top3准确率>=0.8": true,
+      "平均响应<=5s": true
+    }
+  },
+  "records": [
+    {
+      "case_id": "TC-E0001",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.8116845599957743,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "癫痫",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "癫痫",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0002",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.3937783999979727,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "已经五六年了",
+        "body_part": "",
+        "duration": "五六年",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0003",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.8798227900027995,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "做过造影后",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0004",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.616773419998935,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "朋友是一个先天性出现了有癫痫病的患者",
+        "body_part": "癫痫",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "先天性癫痫病",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0005",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.3008773099980315,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "大哭",
+        "body_part": "",
+        "duration": "一周前",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0006",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.625927109998884,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "体温高",
+        "body_part": "我家宝宝这几天体温都非常高",
+        "duration": "几天",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0007",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.301203660000465,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "本人34岁",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0008",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.8186565599986353,
+      "action": "report",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "癫痫",
+        "body_part": "癫痫",
+        "duration": "半年",
+        "accompanying_symptom": "",
+        "past_history": "癫痫",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0009",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.1167324300011385,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我哥哥从小就患有癫痫疾病",
+        "body_part": "癫痫",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "癫痫",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0010",
+      "category": "internal",
+      "turns": 1,
+      "avg_time": 0.00024659998598508537,
+      "action": "emergency",
+      "coverage": 0.0,
+      "report_ok": true,
+      "top3_ok": false,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "呼吸内科"
+      ],
+      "emergency_ok": false,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0011",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.832122899996466,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "迟钝",
+        "body_part": "我的孩子从小的时候就感觉有些迟钝",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0012",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.945319340008427,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "呼吸内科"
+      ],
+      "expected_top3": [
+        "呼吸内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "早晚咳嗽中午没事",
+        "body_part": "早晚咳嗽中午没事",
+        "duration": "",
+        "accompanying_symptom": "咳嗽",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0013",
+      "category": "internal",
+      "turns": 1,
+      "avg_time": 4.5718104999978095,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "急性脊髓炎最好可以恢复到什么程度",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0014",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.96726063999522,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "患者年龄:５２妈妈拍片子说有脑积水",
+        "body_part": "脑部",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0015",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.9469889199972386,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "在医院诊断为分泌性中耳炎",
+        "body_part": "耳",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0016",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.8431591200002004,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "悬赏20个健康币\n来自山东",
+        "body_part": "",
+        "duration": "20个",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0017",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.935091960002319,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "心律不齐",
+        "body_part": "学校体检说心律不齐",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0018",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.581803399999626,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "神经内科"
+      ],
+      "expected_top3": [
+        "神经内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "头晕头疼",
+        "body_part": "头",
+        "duration": "",
+        "accompanying_symptom": "眩晕",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0019",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.4485199799964903,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "今年63岁",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0020",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 6.69741856000328,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我父亲上个月在医院检查是肺心病",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "肺心病",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0021",
+      "category": "internal",
+      "turns": 1,
+      "avg_time": 4.0904161000216845,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "糖尿病",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0022",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.420735829998739,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "宝宝怎么会感染腺病毒",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0023",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.159597020002548,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "宝宝十一个半月",
+        "body_part": "",
+        "duration": "半月",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0024",
+      "category": "internal",
+      "turns": 5,
+      "avg_time": 4.809944880002877,
+      "action": "report",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "针扎样疼痛",
+        "body_part": "心口右侧",
+        "duration": "一两秒",
+        "accompanying_symptom": "就是有时候右心口就像针扎是疼就一两秒",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0025",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.311801070001093,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "答话不清楚",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "共济失调",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0026",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.5900779499992495,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "亲戚张大爷之前的身体一直很好的",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0027",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.715228469998692,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "现在我弟弟他老婆仔细检查出的有肺大泡的",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "肺大泡",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0028",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.936881729998277,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我的动脉硬化指数是6.5412月14日刚检查的",
+        "body_part": "",
+        "duration": "5412月",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0029",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.768287219994818,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "睡午觉不老实",
+        "body_part": "孩子睡午觉的时候特别不老实",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0030",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.843214759998955,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "她妈妈好想有气管炎之类的病   是遗传吗",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "她妈妈好想有气管炎之类的病   是遗传吗",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0031",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.170225089989254,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我小孩出生40天发病",
+        "body_part": "",
+        "duration": "40天",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0032",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.758944580008392,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "心脏病",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0033",
+      "category": "internal",
+      "turns": 1,
+      "avg_time": 4.619511199998669,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "请问肺结节病会引起肺纤维化吗",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0034",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.048808970005484,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "今年10月份左右",
+        "body_part": "",
+        "duration": "10月份左右",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0035",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.70013926999236,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "癫痫",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "癫痫",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0036",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.55727104000398,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "结核性胸膜炎",
+        "body_part": "胸",
+        "duration": "",
+        "accompanying_symptom": "结核",
+        "past_history": "结核",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0037",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.656222749996232,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "癫痫",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "癫痫",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0038",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.8182645299995785,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "心血管内科",
+        "呼吸内科"
+      ],
+      "expected_top3": [
+        "心血管内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "胸痛胸闷",
+        "body_part": "胸口",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0039",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.5045136199943956,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "病情描述:我不算一个瘦小的人",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0040",
+      "category": "internal",
+      "turns": 1,
+      "avg_time": 4.38884010000038,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "多动症小孩和顽皮的小孩有什么样的区别",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0041",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 5.059181909996551,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "2011年2月21号在你处确诊为此病并开始用药",
+        "body_part": "",
+        "duration": "2011年",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0042",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.214867349999258,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "癫痫儿童现在在吃抗癫痫药",
+        "body_part": "癫痫",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "癫痫",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0043",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.427058879996184,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0044",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.828488180000568,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "你好我想咨询一下",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0045",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 3.5986883300036423,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "甲状腺结节",
+        "body_part": "颈部",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "甲状腺",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0046",
+      "category": "internal",
+      "turns": 1,
+      "avg_time": 3.963562999997521,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "呼吸内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "怎样迅速发烧",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0047",
+      "category": "internal",
+      "turns": 4,
+      "avg_time": 4.329810824994638,
+      "action": "report",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "本人患有癫痫病已经有六年了",
+        "body_part": "癫痫",
+        "duration": "六年",
+        "accompanying_symptom": "",
+        "past_history": "癫痫病",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0048",
+      "category": "internal",
+      "turns": 10,
+      "avg_time": 4.909551150002517,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "打呼噜",
+        "body_part": "晚上睡午觉呼噜",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0049",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 4.4068824500049235,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "老乡的小孩子以前一直很听话的",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0050",
+      "category": "ortho_derma",
+      "turns": 1,
+      "avg_time": 4.968232200015336,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "慢性阑尾炎",
+        "body_part": "手",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0051",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 3.804560029992717,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "臂丛神经受累",
+        "body_part": "臂丛神经受累",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0052",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 3.395499330005259,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我自己知道有这个毛病",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0053",
+      "category": "ortho_derma",
+      "turns": 1,
+      "avg_time": 4.702462899993407,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "腹股沟疝气和腱鞘积液是什么关系",
+        "body_part": "腹",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0054",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 3.947486600000411,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "左侧睾丸疼",
+        "body_part": "睾丸",
+        "duration": "",
+        "accompanying_symptom": "经常左侧睾丸疼",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0055",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 4.6500650499976475,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "不舒服",
+        "body_part": "就是有时后  不舒服",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0056",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 3.9279740500001936,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我家孩子特别调皮",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0057",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 3.554816670002765,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "从去年女儿降生已经开始的时候",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0058",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 4.669848640004057,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "大便带大量血",
+        "body_part": "",
+        "duration": "好几天",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0059",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 3.494583790001343,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我自己知道有这个毛病",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0060",
+      "category": "ortho_derma",
+      "turns": 10,
+      "avg_time": 3.9302027199999428,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "最近感觉身体特别不舒服",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0061",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 4.90278435999935,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我从两个月前已经开始",
+        "body_part": "",
+        "duration": "两个月前开始",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0062",
+      "category": "incomplete",
+      "turns": 1,
+      "avg_time": 5.26317759999074,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "少精的危害有哪些",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0063",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.5526396099972772,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "癫痫",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "癫痫",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0064",
+      "category": "incomplete",
+      "turns": 1,
+      "avg_time": 6.336091499979375,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "前列腺痛的治疗哪家好",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0065",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 4.817810420002206,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "普通内科都能看什么的病",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0066",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.6999093400023413,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "乳房疼痛",
+        "body_part": "我最近乳房疼痛",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0067",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.7732273599976907,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "已经五六年了",
+        "body_part": "",
+        "duration": "五六年",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0068",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.766000319996965,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "四个月没来月经",
+        "body_part": "",
+        "duration": "四个月",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0069",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 21.876931179995882,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "结婚好几年了",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0070",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.52836669999524,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我的叔叔四十五岁",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0071",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.3265931799978716,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "去医院仔细检查了",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0072",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.883412860002136,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "右胸部疼痛",
+        "body_part": "胸部",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0073",
+      "category": "incomplete",
+      "turns": 1,
+      "avg_time": 3.8098960999923293,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "中专可以学康复医学吗",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0074",
+      "category": "incomplete",
+      "turns": 1,
+      "avg_time": 4.21509579999838,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "小孩为什么会得脓毒症",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0075",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.7842871099972397,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "和朋友聊天",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0076",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 4.489816979999887,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "割包皮半个月了",
+        "body_part": "包皮",
+        "duration": "半个月",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0077",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.6893559199990706,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "做过造影后",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0078",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 4.037230289998115,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "乳腺增生",
+        "body_part": "乳腺增生好几年了",
+        "duration": "好几年",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0079",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 6.454625410001609,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我结婚已经三年多了",
+        "body_part": "",
+        "duration": "三年",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0080",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 5.1714145499980075,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": false,
+      "rec_depts": [
+        "皮肤科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "下体瘙痒",
+        "body_part": "本人下体特别痒",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0081",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.7569886800047243,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": false,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "消化内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "拉肚子",
+        "body_part": "肚子",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0082",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.7538886300026206,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "白天备感困",
+        "body_part": "本人主要是白天备感困",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0083",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.8251063400006386,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我现在怀孕28周",
+        "body_part": "",
+        "duration": "28周",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0084",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.918548189997091,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "6月12号来月经",
+        "body_part": "",
+        "duration": "6月",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0085",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.8528054799942764,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "今天学校上这个身理课",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0086",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.276361490000272,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "本人性别女",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0087",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.9616991499962753,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "大嫂今天去做了孕检",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0088",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.8405750100064324,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "老公身体不舒服",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0089",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.7967516499978955,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "睾丸痛",
+        "body_part": "右睾丸",
+        "duration": "",
+        "accompanying_symptom": "前段时间右睾丸有点痛",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0090",
+      "category": "incomplete",
+      "turns": 10,
+      "avg_time": 3.5916666300006908,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我真不明白",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0091",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 9.549999958835542e-05,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0092",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 6.093806899996707,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "抽搐，意识不清",
+        "body_part": "孩子抽搐，意识不清",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0093",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 0.00014999997802078724,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0094",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 5.03795089997584,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "皮肤科"
+      ],
+      "expected_top3": [
+        "皮肤科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "全身皮疹加呼吸急促",
+        "body_part": "全身",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": "虾"
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0095",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 9.379998664371669e-05,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "消化内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0096",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 8.9899986051023e-05,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "神经内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0097",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 0.00010079998173750937,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0098",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 0.0001058999914675951,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0099",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 5.155859999998938,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "呼吸内科",
+        "神经内科"
+      ],
+      "expected_top3": [
+        "神经内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "咳血",
+        "body_part": "头",
+        "duration": "",
+        "accompanying_symptom": "头晕",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0100",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 5.578992399998242,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "肚子剧痛",
+        "body_part": "腹部",
+        "duration": "",
+        "accompanying_symptom": "脸色发白，满腹拒按",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0101",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 0.00011290001566521823,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0102",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 0.0001016999885905534,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "心血管内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0103",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 5.29870139999548,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "心血管内科",
+        "消化内科",
+        "神经内科"
+      ],
+      "expected_top3": [
+        "神经内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "大量便血",
+        "body_part": "头",
+        "duration": "",
+        "accompanying_symptom": "头晕心慌",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0104",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 9.169999975711107e-05,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0105",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 4.284963100013556,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "消化内科"
+      ],
+      "expected_top3": [
+        "消化内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "呕吐大量鲜血",
+        "body_part": "呕吐大量鲜血，人很虚弱",
+        "duration": "",
+        "accompanying_symptom": "人很虚弱",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0106",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 0.00017399998614564538,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "神经内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0107",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 9.869999485090375e-05,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0108",
+      "category": "emergency",
+      "turns": 1,
+      "avg_time": 0.00010289999772794545,
+      "action": "emergency",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": true,
+      "slots": {
+        "main_symptom": "",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0109",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 3.5511231200041946,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "消化内科"
+      ],
+      "expected_top3": [
+        "消化内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "胃痛",
+        "body_part": "胃",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0110",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 4.717863899999065,
+      "action": "ask",
+      "coverage": null,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "我害怕我是不是得了绝症",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0111",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 5.433302539997385,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "骨科"
+      ],
+      "expected_top3": [
+        "骨科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "腰疼",
+        "body_part": "腰",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0112",
+      "category": "comfort_boundary",
+      "turns": 6,
+      "avg_time": 5.870564983333073,
+      "action": "report",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": false,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "神经内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "头疼",
+        "body_part": "头",
+        "duration": "好几天",
+        "accompanying_symptom": "焦虑",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0113",
+      "category": "comfort_boundary",
+      "turns": 2,
+      "avg_time": 4.823881099990103,
+      "action": "rejected",
+      "coverage": null,
+      "report_ok": null,
+      "top3_ok": null,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "帮我看看到底是什么病，我好害怕",
+        "body_part": "",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0114",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 4.036009960007505,
+      "action": "ask",
+      "coverage": 0.6666666666666666,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "心血管内科",
+        "呼吸内科"
+      ],
+      "expected_top3": [
+        "心血管内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "心慌胸闷",
+        "body_part": "胸",
+        "duration": "",
+        "accompanying_symptom": "心慌",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0115",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 5.921013579994906,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": false,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "消化内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "肚子疼",
+        "body_part": "肚子",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0116",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 3.9813100500032306,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "神经内科"
+      ],
+      "expected_top3": [
+        "神经内科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "头晕",
+        "body_part": "头",
+        "duration": "",
+        "accompanying_symptom": "眩晕",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0117",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 6.318216569995275,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "内科全科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "哭闹",
+        "body_part": "孩子一直哭闹，我很焦虑",
+        "duration": "",
+        "accompanying_symptom": "吐奶",
+        "past_history": "哭闹/吐奶",
+        "allergy_history": "焦虑"
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0118",
+      "category": "comfort_boundary",
+      "turns": 2,
+      "avg_time": 4.548992949989042,
+      "action": "emergency",
+      "coverage": 0.5,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "呼吸内科",
+        "心血管内科"
+      ],
+      "expected_top3": [
+        "心血管内科"
+      ],
+      "emergency_ok": false,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "胸闷",
+        "body_part": "胸",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0119",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 3.715150430001086,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": false,
+      "rec_depts": [
+        "骨科"
+      ],
+      "expected_top3": [
+        "内科全科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "腿疼",
+        "body_part": "头",
+        "duration": "",
+        "accompanying_symptom": "",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    },
+    {
+      "case_id": "TC-E0120",
+      "category": "comfort_boundary",
+      "turns": 10,
+      "avg_time": 4.287295069996617,
+      "action": "ask",
+      "coverage": 1.0,
+      "report_ok": true,
+      "top3_ok": true,
+      "rec_depts": [
+        "皮肤科"
+      ],
+      "expected_top3": [
+        "皮肤科"
+      ],
+      "emergency_ok": true,
+      "expected_emergency": false,
+      "slots": {
+        "main_symptom": "皮疹",
+        "body_part": "皮疹越长越多，紧张得睡不着",
+        "duration": "",
+        "accompanying_symptom": "皮疹",
+        "past_history": "",
+        "allergy_history": ""
+      },
+      "degraded": false
+    }
+  ]
+}

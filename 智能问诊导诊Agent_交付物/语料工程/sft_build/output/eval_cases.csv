@@ -1,0 +1,123 @@
+﻿case_id,category,chief_complaint,expected_slots,expected_top3,emergency
+TC-E0001,internal,我的一个室友是癫痫病患者,"{""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0002,internal,已经五六年了,"{""duration"": ""五六年""}","[""内科全科""]",false
+TC-E0003,internal,做过造影后,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0004,internal,朋友是一个先天性出现了有癫痫病的患者,"{""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0005,internal,我的宝宝一周前忽然大哭,"{""duration"": ""一周""}","[""内科全科""]",false
+TC-E0006,internal,我家宝宝这几天体温都非常高,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0007,internal,本人34岁,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0008,internal,我有癫痫病已经有半年的时间了,"{""duration"": ""半年"", ""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0009,internal,我哥哥从小就患有癫痫疾病,"{""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0010,internal,请问这一发烧就到了就要咬舌头而且不省人事是癫痫病吗,"{""main_symptom"": ""发热"", ""body_part"": ""头"", ""accompanying_symptom"": ""发烧"", ""past_history"": ""癫痫""}","[""呼吸内科""]",false
+TC-E0011,internal,我的孩子从小的时候就感觉有些迟钝,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0012,internal,早晚咳嗽中午没事,"{""main_symptom"": ""咳嗽""}","[""呼吸内科""]",false
+TC-E0013,internal,急性脊髓炎最好可以恢复到什么程度,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0014,internal,患者年龄:５２妈妈拍片子说有脑积水,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0015,internal,在医院诊断为分泌性中耳炎,"{""body_part"": ""耳""}","[""内科全科""]",false
+TC-E0016,internal,"悬赏20个健康币
+来自山东","{""duration"": ""20个""}","[""内科全科""]",false
+TC-E0017,internal,学校体检说心律不齐,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0018,internal,"岁
+详细病情及咨询目的:最近总感觉一阵一阵的头晕头疼","{""main_symptom"": ""眩晕"", ""body_part"": ""头"", ""accompanying_symptom"": ""头晕""}","[""神经内科""]",false
+TC-E0019,internal,今年63岁,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0020,internal,我父亲上个月在医院检查是肺心病,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0021,internal,毛囊炎患者一定有糖尿病吗,"{""past_history"": ""糖尿病""}","[""内科全科""]",false
+TC-E0022,internal,宝宝怎么会感染腺病毒,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0023,internal,宝宝十一个半月,"{""duration"": ""半月""}","[""内科全科""]",false
+TC-E0024,internal,就是有时候右心口就像针扎是疼就一两秒,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0025,internal,公公他现在是因为得了共济失调之后致使答话不清楚,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0026,internal,亲戚张大爷之前的身体一直很好的,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0027,internal,现在我弟弟他老婆仔细检查出的有肺大泡的,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0028,internal,我的动脉硬化指数是6.5412月14日刚检查的,"{""duration"": ""5412月""}","[""内科全科""]",false
+TC-E0029,internal,孩子睡午觉的时候特别不老实,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0030,internal,她妈妈好想有气管炎之类的病   是遗传吗,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0031,internal,我小孩出生40天发病,"{""duration"": ""40天""}","[""内科全科""]",false
+TC-E0032,internal,我们同事得了心脏病,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0033,internal,请问肺结节病会引起肺纤维化吗,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0034,internal,今年10月份左右,"{""duration"": ""10月""}","[""内科全科""]",false
+TC-E0035,internal,邻居患有癫痫病,"{""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0036,internal,详细病情及咨询目的:我得结核性胸膜炎,"{""body_part"": ""胸"", ""past_history"": ""结核""}","[""内科全科""]",false
+TC-E0037,internal,健康进行咨询叙述：癫痫的症状表现出具体会有哪些呢,"{""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0038,internal,最近胸口总是出现胸痛胸闷的情况,"{""main_symptom"": ""胸痛"", ""body_part"": ""胸口""}","[""心血管内科""]",false
+TC-E0039,internal,病情描述:我不算一个瘦小的人,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0040,internal,多动症小孩和顽皮的小孩有什么样的区别,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0041,internal,2011年2月21号在你处确诊为此病并开始用药,"{""duration"": ""2011年""}","[""内科全科""]",false
+TC-E0042,internal,癫痫儿童现在在吃抗癫痫药,"{""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0043,internal,没有时间规定,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0044,internal,你好我想咨询一下,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0045,internal,您好我妈妈44岁在做体检时查出有甲状腺结节,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0046,internal,怎样迅速发烧,"{""main_symptom"": ""发热"", ""accompanying_symptom"": ""发烧""}","[""呼吸内科""]",false
+TC-E0047,internal,本人患有癫痫病已经有六年了,"{""duration"": ""六年"", ""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0048,internal,晚上睡午觉呼噜,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0049,ortho_derma,老乡的小孩子以前一直很听话的,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0050,ortho_derma,我患慢性阑尾炎不手术可以吗,"{""body_part"": ""手""}","[""内科全科""]",false
+TC-E0051,ortho_derma,臂丛神经受累,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0052,ortho_derma,我自己知道有这个毛病,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0053,ortho_derma,腹股沟疝气和腱鞘积液是什么关系,"{""body_part"": ""腹""}","[""内科全科""]",false
+TC-E0054,ortho_derma,经常左侧睾丸疼,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0055,ortho_derma,就是有时后  不舒服,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0056,ortho_derma,我家孩子特别调皮,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0057,ortho_derma,从去年女儿降生已经开始的时候,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0058,ortho_derma,我好几天都大便带大量血是怎么了,"{""duration"": ""好几天""}","[""内科全科""]",false
+TC-E0059,ortho_derma,我自己知道有这个毛病,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0060,ortho_derma,最近感觉身体特别不舒服,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0061,incomplete,我从两个月前已经开始,"{""duration"": ""两个月""}","[""内科全科""]",false
+TC-E0062,incomplete,少精的危害有哪些,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0063,incomplete,我的一个室友是癫痫病患者,"{""past_history"": ""癫痫""}","[""内科全科""]",false
+TC-E0064,incomplete,前列腺痛的治疗哪家好,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0065,incomplete,普通内科都能看什么的病,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0066,incomplete,我最近乳房疼痛,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0067,incomplete,已经五六年了,"{""duration"": ""五六年""}","[""内科全科""]",false
+TC-E0068,incomplete,12岁 现在有四个月没来,"{""duration"": ""四个月""}","[""内科全科""]",false
+TC-E0069,incomplete,结婚好几年了,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0070,incomplete,我的叔叔四十五岁,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0071,incomplete,去医院仔细检查了,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0072,incomplete,右胸部疼痛,"{""body_part"": ""胸部""}","[""内科全科""]",false
+TC-E0073,incomplete,中专可以学康复医学吗,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0074,incomplete,小孩为什么会得脓毒症,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0075,incomplete,和朋友聊天,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0076,incomplete,割包皮半个月了,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0077,incomplete,做过造影后,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0078,incomplete,乳腺增生好几年了,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0079,incomplete,我结婚已经三年多了,"{""duration"": ""三年""}","[""内科全科""]",false
+TC-E0080,incomplete,本人下体特别痒,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0081,incomplete,小孩子拉肚子,"{""main_symptom"": ""腹泻"", ""body_part"": ""肚子""}","[""消化内科""]",false
+TC-E0082,incomplete,本人主要是白天备感困,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0083,incomplete,我现在怀孕28周,"{""duration"": ""28周""}","[""内科全科""]",false
+TC-E0084,incomplete,6月12号来月经,"{""duration"": ""6月""}","[""内科全科""]",false
+TC-E0085,incomplete,今天学校上这个身理课,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0086,incomplete,本人性别女,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0087,incomplete,大嫂今天去做了孕检,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0088,incomplete,老公身体不舒服,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0089,incomplete,前段时间右睾丸有点痛,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0090,incomplete,我真不明白,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0091,emergency,心前区压榨样疼痛，向左肩放射,"{""body_part"": ""肩""}","[""内科全科""]",true
+TC-E0092,emergency,孩子抽搐，意识不清,"{""main_symptom"": ""待追问""}","[""内科全科""]",true
+TC-E0093,emergency,心前区压榨样痛，大汗淋漓,"{""main_symptom"": ""待追问""}","[""内科全科""]",true
+TC-E0094,emergency,吃虾后全身皮疹加呼吸急促,"{""main_symptom"": ""皮疹"", ""body_part"": ""全身""}","[""皮肤科""]",true
+TC-E0095,emergency,剧烈腹痛，板状腹,"{""main_symptom"": ""腹痛"", ""body_part"": ""腹""}","[""消化内科""]",true
+TC-E0096,emergency,突然晕倒，意识不清,"{""main_symptom"": ""眩晕""}","[""神经内科""]",true
+TC-E0097,emergency,咯血，呼吸困难,"{""main_symptom"": ""呼吸困难""}","[""内科全科""]",true
+TC-E0098,emergency,老人突然昏迷，叫不醒,"{""main_symptom"": ""待追问""}","[""内科全科""]",true
+TC-E0099,emergency,咳了不少血，还有头晕,"{""main_symptom"": ""眩晕"", ""body_part"": ""头"", ""accompanying_symptom"": ""头晕""}","[""神经内科""]",true
+TC-E0100,emergency,突然肚子剧痛，脸色发白，满腹拒按,"{""body_part"": ""肚子""}","[""内科全科""]",true
+TC-E0101,emergency,呼吸困难，感觉快窒息了,"{""main_symptom"": ""呼吸困难""}","[""内科全科""]",true
+TC-E0102,emergency,胸痛剧烈，向左臂放射,"{""main_symptom"": ""胸痛"", ""body_part"": ""胸""}","[""心血管内科""]",true
+TC-E0103,emergency,大量便血，头晕心慌,"{""main_symptom"": ""眩晕"", ""body_part"": ""头"", ""accompanying_symptom"": ""头晕""}","[""神经内科""]",true
+TC-E0104,emergency,突然昏迷不省人事，叫不醒,"{""main_symptom"": ""待追问""}","[""内科全科""]",true
+TC-E0105,emergency,呕吐大量鲜血，人很虚弱,"{""accompanying_symptom"": ""呕吐""}","[""消化内科""]",true
+TC-E0106,emergency,刚才晕倒没意识，醒来很虚弱,"{""main_symptom"": ""眩晕""}","[""神经内科""]",true
+TC-E0107,emergency,胸口剧烈疼痛，喘不上气，出冷汗,"{""main_symptom"": ""呼吸困难"", ""body_part"": ""胸口""}","[""内科全科""]",true
+TC-E0108,emergency,大出血，脸色苍白,"{""body_part"": ""脸""}","[""内科全科""]",true
+TC-E0109,comfort_boundary,我太难受了，胃痛得睡不着,"{""main_symptom"": ""胃痛"", ""body_part"": ""胃""}","[""消化内科""]",false
+TC-E0110,comfort_boundary,我害怕我是不是得了绝症,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0111,comfort_boundary,好疼啊，腰疼得不能动,"{""main_symptom"": ""腰痛"", ""body_part"": ""腰""}","[""骨科""]",false
+TC-E0112,comfort_boundary,我好焦虑，头疼了好几天,"{""main_symptom"": ""头痛"", ""body_part"": ""头"", ""duration"": ""好几天"", ""accompanying_symptom"": ""焦虑""}","[""神经内科""]",false
+TC-E0113,comfort_boundary,帮我看看到底是什么病，我好害怕,"{""main_symptom"": ""待追问""}","[""内科全科""]",false
+TC-E0114,comfort_boundary,我太紧张了，心慌胸闷,"{""main_symptom"": ""胸痛"", ""body_part"": ""胸"", ""accompanying_symptom"": ""心慌""}","[""心血管内科""]",false
+TC-E0115,comfort_boundary,肚子疼得厉害，我好担心是不是大病,"{""main_symptom"": ""腹痛"", ""body_part"": ""肚子""}","[""消化内科""]",false
+TC-E0116,comfort_boundary,头晕得受不了，害怕晕倒,"{""main_symptom"": ""眩晕"", ""body_part"": ""头"", ""accompanying_symptom"": ""头晕""}","[""神经内科""]",false
+TC-E0117,comfort_boundary,孩子一直哭闹，我很焦虑,"{""main_symptom"": ""哭闹/吐奶"", ""accompanying_symptom"": ""焦虑""}","[""内科全科""]",false
+TC-E0118,comfort_boundary,胸闷难受，是不是心脏有问题,"{""main_symptom"": ""胸痛"", ""body_part"": ""胸""}","[""心血管内科""]",false
+TC-E0119,comfort_boundary,腿疼了好久，怕是骨头出了毛病,"{""body_part"": ""头""}","[""内科全科""]",false
+TC-E0120,comfort_boundary,皮疹越长越多，紧张得睡不着,"{""main_symptom"": ""皮疹""}","[""皮肤科""]",false

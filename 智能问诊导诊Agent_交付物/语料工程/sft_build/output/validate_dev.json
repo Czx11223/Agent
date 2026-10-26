@@ -1,0 +1,13 @@
+{
+  "total": 1319,
+  "ok": 1319,
+  "bad": 0,
+  "task_counts": {
+    "ask": 800,
+    "report": 119,
+    "emergency": 300,
+    "rejected": 100
+  },
+  "errors_by_type": {},
+  "bad_lines": []
+}
